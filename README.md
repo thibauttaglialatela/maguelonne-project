@@ -4,28 +4,6 @@
   <a href="https://ibb.co/sw2nX7m"><img src="" alt="Bdd-Maguelonne" border="0"></a>
 </p>
 
--------------------------------------------
-## Presentation
-
-This starter kit is here to easily start a repository for Wild Code School students.
-
-It's symfony website-skeleton project with some additional library (webpack, fixtures) and tools to validate code standards.
-
-* GrumPHP, as pre-commit hook, will run 2 tools when `git commit` is run :
-  
-    * PHP_CodeSniffer to check PSR12 
-    * PHPStan focuses on finding errors in your code (without actually running it)
-    * PHPmd will check if you follow PHP best practices
-     
-  If tests fail, the commit is canceled and a warning message is displayed to developper.
-
-* Github Action as Continuous Integration will be run when a branch with active pull request is updated on github. It will run :
-
-    * Tasks to check if vendor, .idea, env.local are not versionned,
-    * PHP_CodeSniffer, PHPStan and PHPmd with same configuration as GrumPHP.
- 
-## Getting Started for Students
-
 ### Prerequisites
 
 1. Check composer is installed
